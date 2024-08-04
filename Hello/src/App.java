@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int num = 1;
-        num = soma(1,2);
+        int num =2;
+        num = soma(num,3);
         System.out.println("Hello, WSL! " + num);
     }
 
