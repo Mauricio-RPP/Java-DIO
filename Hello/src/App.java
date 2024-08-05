@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int num =2;
+        int num =9;
         num = soma(num,3);
         System.out.println("Hello, WSL! " + num);
     }
