@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        int num = 1100;
+        int num = 100;
         num = soma(num,2);
         String teste = "aaa";
         System.out.println("Hello, WSL! " + num);
