@@ -1,6 +1,7 @@
+package contador;
 import java.util.Scanner;
 
-public class Contador {
+public class Contadora {
     public static void main(String[] args) {
         Scanner terminal = new Scanner(System.in);
         System.out.println("Entre primeiro nro: ");
@@ -12,6 +13,7 @@ public class Contador {
         } catch (ParametrosInvalidosException exception) {
             System.out.println("O segundo deve ser maior que o primeiro");
         }
+        terminal.close();
     }
 
     static void contar(int ini, int fim) throws ParametrosInvalidosException {
