@@ -1,6 +1,6 @@
 package iPhone;
 
-public interface AparelhoTelefonico {
+public class AparelhoTelefonico {
     public void ligar(String numero) {
         System.out.println("Ligando para " + numero);
     }

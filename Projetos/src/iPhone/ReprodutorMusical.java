@@ -1,6 +1,6 @@
 package iPhone;
 
-public interface ReprodutorMusical {
+public class ReprodutorMusical {
     public void tocar() {
         System.out.println("Tocando música");
     }

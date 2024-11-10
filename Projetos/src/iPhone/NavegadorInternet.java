@@ -1,6 +1,6 @@
 package iPhone;
 
-public interface NavegadorInternet {
+public class NavegadorInternet {
     public void exibirPagina(String url) {
         System.out.println("Exibindo página " + url);
     }
