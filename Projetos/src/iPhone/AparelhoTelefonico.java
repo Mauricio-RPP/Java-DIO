@@ -1,13 +1,7 @@
 package iPhone;
 
-public class AparelhoTelefonico {
-    public void ligar(String numero) {
-        System.out.println("Ligando para " + numero);
-    }
-    public void atender(){
-        System.out.println("Atendendo");
-    }
-    public void iniciarCorreioVoz(){
-        System.out.println("iniciarCorreioVoz");
-    }
+public interface AparelhoTelefonico {
+    public void ligar(String numero);
+    public void atender();
+    public void iniciarCorreioVoz();
 }
