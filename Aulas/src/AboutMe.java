@@ -29,7 +29,7 @@ public class AboutMe {
         scanner.close();
         }
         catch(InputMismatchException e) {
-System.out.println("Campos idade/altura em formato incorreto");
+            System.out.println("Campos idade/altura em formato incorreto");
         }
     }
 }
